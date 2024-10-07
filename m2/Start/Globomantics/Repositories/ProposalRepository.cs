@@ -1,6 +1,8 @@
 ﻿using Globomantics.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Globomantics.Repositories;
+
 
 public class ProposalRepository : IProposalRepository
 {
